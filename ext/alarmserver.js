@@ -171,7 +171,7 @@ function update(id, value, force) {
 function refresh(force) {
 	$.ajax({
 		type: "GET",
-		url: "/api",
+		url: envisalink "/api",
 		contentType: "application/json; charset=utf-8",
 		dataType: "json",
 		data: "{}",
